@@ -12,3 +12,5 @@ This program is for Windows 7/Windows 10+ x86-compatible environments.
 **Build**
 
 Incredibly, the VC++ 6.0 DSW (project file) was auto-converted to a workable Visual Studio 2017 solution. I built it using Visual Studio 15.7.5. You can build the .sln and run the result in a modern environment.
+
+![Example image](https://raw.githubusercontent.com/clandrew/SimCityMfc/master/Images/SimCity.gif "Example image")
