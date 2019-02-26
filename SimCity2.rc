@@ -1,0 +1,332 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SimCity2.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SimCity2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About SimCity2"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,20
+    LTEXT           "Claire's first step towards world domination.",
+                    IDC_STATIC,43,14,127,18,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004",IDC_STATIC,40,39,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_SIMCITY2_DIALOG DIALOGEX 0, 0, 472, 300
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SimCity2"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    SCROLLBAR       IDC_SCROLLH,5,284,441,11
+    SCROLLBAR       IDC_SCROLLV,448,7,13,280,SBS_VERT
+    PUSHBUTTON      "",IDC_TB1,13,15,22,21,BS_BITMAP
+    PUSHBUTTON      "",IDC_TB5,13,71,22,21,BS_BITMAP
+    PUSHBUTTON      "",IDC_TB3,13,43,22,21,BS_BITMAP
+    PUSHBUTTON      "",IDC_TB7,13,99,22,21,BS_BITMAP
+    PUSHBUTTON      "",IDC_TB9,13,127,22,21,BS_BITMAP
+    PUSHBUTTON      "",IDC_TB11,13,155,22,21,BS_BITMAP
+    PUSHBUTTON      "",IDC_TB13,13,183,22,21,BS_BITMAP
+    PUSHBUTTON      "",IDC_TB15,13,213,22,21,BS_BITMAP
+    PUSHBUTTON      "",IDC_TB2,43,15,22,21,BS_BITMAP
+    PUSHBUTTON      "",IDC_TB6,43,71,22,21,BS_BITMAP
+    PUSHBUTTON      "",IDC_TB4,43,43,22,21,BS_BITMAP
+    PUSHBUTTON      "",IDC_TB8,43,99,22,21,BS_BITMAP
+    PUSHBUTTON      "",IDC_TB10,43,127,22,21,BS_BITMAP
+    PUSHBUTTON      "",IDC_TB12,43,155,22,21,BS_BITMAP
+    PUSHBUTTON      "",IDC_TB14,43,183,22,21,BS_BITMAP
+    LTEXT           "Funds",IDC_STATIC,13,236,37,8
+    LTEXT           "Population",IDC_STATIC,13,261,37,8,0,WS_EX_TRANSPARENT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "SimCity2 MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "SimCity2\0"
+            VALUE "LegalCopyright", "Copyright (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SimCity2.EXE\0"
+            VALUE "ProductName", "SimCity2 Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SIMCITY2_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 465
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 293
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_RES                 BITMAP  DISCARDABLE     "res\\1.bmp"
+IDB_COM                 BITMAP  DISCARDABLE     "res\\c.bmp"
+IDB_IND                 BITMAP  DISCARDABLE     "res\\i.bmp"
+IDB_PARK                BITMAP  DISCARDABLE     "res\\p.bmp"
+IDB_AIRPORT             BITMAP  DISCARDABLE     "res\\airport.bmp"
+IDB_BLANK               BITMAP  DISCARDABLE     "res\\blank.bmp"
+IDB_COAL                BITMAP  DISCARDABLE     "res\\coal.bmp"
+IDB_FIREDEPT            BITMAP  DISCARDABLE     "res\\fire.bmp"
+IDB_FOREST              BITMAP  DISCARDABLE     "res\\forest.bmp"
+IDB_STADIUM             BITMAP  DISCARDABLE     "res\\stadium.bmp"
+IDB_SEAPORT             BITMAP  DISCARDABLE     "res\\seaport.bmp"
+IDB_WATER               BITMAP  DISCARDABLE     "res\\water.bmp"
+IDB_CH1                 BITMAP  DISCARDABLE     "res\\ch1.bmp"
+IDB_CH2                 BITMAP  DISCARDABLE     "res\\ch2.bmp"
+IDB_CH3                 BITMAP  DISCARDABLE     "res\\ch3.bmp"
+IDB_CH4                 BITMAP  DISCARDABLE     "res\\ch4.bmp"
+IDB_CL1                 BITMAP  DISCARDABLE     "res\\cl1.bmp"
+IDB_CL2                 BITMAP  DISCARDABLE     "res\\cl2.bmp"
+IDB_CL3                 BITMAP  DISCARDABLE     "res\\cl3.bmp"
+IDB_CL4                 BITMAP  DISCARDABLE     "res\\cl4.bmp"
+IDB_CM1                 BITMAP  DISCARDABLE     "res\\cm1.bmp"
+IDB_CM2                 BITMAP  DISCARDABLE     "res\\cm2.bmp"
+IDB_CM3                 BITMAP  DISCARDABLE     "res\\cm3.bmp"
+IDB_CM4                 BITMAP  DISCARDABLE     "res\\cm4.bmp"
+IDB_CU1                 BITMAP  DISCARDABLE     "res\\cu1.bmp"
+IDB_CU2                 BITMAP  DISCARDABLE     "res\\cu2.bmp"
+IDB_CU3                 BITMAP  DISCARDABLE     "res\\cu3.bmp"
+IDB_CU4                 BITMAP  DISCARDABLE     "res\\cu4.bmp"
+IDB_IH1                 BITMAP  DISCARDABLE     "res\\ih1.bmp"
+IDB_IH2                 BITMAP  DISCARDABLE     "res\\ih2.bmp"
+IDB_IH3                 BITMAP  DISCARDABLE     "res\\il3.bmp"
+IDB_IH4                 BITMAP  DISCARDABLE     "res\\ih4.bmp"
+IDB_IL1                 BITMAP  DISCARDABLE     "res\\il1.bmp"
+IDB_IL2                 BITMAP  DISCARDABLE     "res\\il2.bmp"
+IDB_IL3                 BITMAP  DISCARDABLE     "res\\il3.bmp"
+IDB_IL4                 BITMAP  DISCARDABLE     "res\\il4.bmp"
+IDB_RH1                 BITMAP  DISCARDABLE     "res\\rh1.bmp"
+IDB_RH2                 BITMAP  DISCARDABLE     "res\\rh2.bmp"
+IDB_RH3                 BITMAP  DISCARDABLE     "res\\rh3.bmp"
+IDB_RH4                 BITMAP  DISCARDABLE     "res\\rh4.bmp"
+IDB_RL1                 BITMAP  DISCARDABLE     "res\\rl1.bmp"
+IDB_RL2                 BITMAP  DISCARDABLE     "res\\rl2.bmp"
+IDB_RL3                 BITMAP  DISCARDABLE     "res\\rl3.bmp"
+IDB_RL4                 BITMAP  DISCARDABLE     "res\\rl4.bmp"
+IDB_RM1                 BITMAP  DISCARDABLE     "res\\rm1.bmp"
+IDB_RM2                 BITMAP  DISCARDABLE     "res\\rm2.bmp"
+IDB_RM3                 BITMAP  DISCARDABLE     "res\\rm3.bmp"
+IDB_RM4                 BITMAP  DISCARDABLE     "res\\rm4.bmp"
+IDB_RU1                 BITMAP  DISCARDABLE     "res\\ru1.bmp"
+IDB_RU2                 BITMAP  DISCARDABLE     "res\\ru2.bmp"
+IDB_RU3                 BITMAP  DISCARDABLE     "res\\ru3.bmp"
+IDB_RU4                 BITMAP  DISCARDABLE     "res\\ru4.bmp"
+IDB_RAIL3ID             BITMAP  DISCARDABLE     "res\\rail3id.bmp"
+IDB_RAIL3IU             BITMAP  DISCARDABLE     "res\\rail3iu.bmp"
+IDB_RAILBL              BITMAP  DISCARDABLE     "res\\railbl.bmp"
+IDB_RAILBR              BITMAP  DISCARDABLE     "res\\railbr.bmp"
+IDB_RAILTL              BITMAP  DISCARDABLE     "res\\railtl.bmp"
+IDB_RAILTR              BITMAP  DISCARDABLE     "res\\railtr.bmp"
+IDB_RAILH               BITMAP  DISCARDABLE     "res\\railh.bmp"
+IDB_RAILV               BITMAP  DISCARDABLE     "res\\railv.bmp"
+IDB_ROAD3ID             BITMAP  DISCARDABLE     "res\\road3id.bmp"
+IDB_ROAD3IL             BITMAP  DISCARDABLE     "res\\road3il.bmp"
+IDB_ROAD3IR             BITMAP  DISCARDABLE     "res\\road3ir.bmp"
+IDB_ROAD3IU             BITMAP  DISCARDABLE     "res\\road3iu.bmp"
+IDB_ROADBL              BITMAP  DISCARDABLE     "res\\roadbl.bmp"
+IDB_ROADBR              BITMAP  DISCARDABLE     "res\\roadbr.bmp"
+IDB_ROADTL              BITMAP  DISCARDABLE     "res\\roadtl.bmp"
+IDB_ROADTR              BITMAP  DISCARDABLE     "res\\roadtr.bmp"
+IDB_ROADH               BITMAP  DISCARDABLE     "res\\roadh.bmp"
+IDB_ROADV               BITMAP  DISCARDABLE     "res\\roadv.bmp"
+IDB_ROAD4I              BITMAP  DISCARDABLE     "res\\Road4I.bmp"
+IDB_RAIL4I              BITMAP  DISCARDABLE     "RES\\Rail4i.bmp"
+IDB_RAIL3IL             BITMAP  DISCARDABLE     "RES\\Rail3il.bmp"
+IDB_RAIL3IR             BITMAP  DISCARDABLE     "RES\\Rail3ir.bmp"
+IDB_T1                  BITMAP  DISCARDABLE     "RES\\_1.bmp"
+IDB_T2                  BITMAP  DISCARDABLE     "RES\\_2.bmp"
+IDB_T3                  BITMAP  DISCARDABLE     "RES\\_3.bmp"
+IDB_T4                  BITMAP  DISCARDABLE     "RES\\_4.bmp"
+IDB_T5                  BITMAP  DISCARDABLE     "RES\\_5.bmp"
+IDB_T6                  BITMAP  DISCARDABLE     "RES\\_6.bmp"
+IDB_T7                  BITMAP  DISCARDABLE     "RES\\_7.bmp"
+IDB_T8                  BITMAP  DISCARDABLE     "RES\\_8.bmp"
+IDB_T9                  BITMAP  DISCARDABLE     "RES\\_9.bmp"
+IDB_T10                 BITMAP  DISCARDABLE     "RES\\_10.bmp"
+IDB_T11                 BITMAP  DISCARDABLE     "RES\\_11.bmp"
+IDB_T12                 BITMAP  DISCARDABLE     "RES\\_12.bmp"
+IDB_T13                 BITMAP  DISCARDABLE     "RES\\_13.bmp"
+IDB_T14                 BITMAP  DISCARDABLE     "RES\\_14.bmp"
+IDB_T15                 BITMAP  DISCARDABLE     "RES\\_15.bmp"
+IDB_POLICEDEPT          BITMAP  DISCARDABLE     "RES\\POLICE.BMP"
+IDB_CURSOR              BITMAP  DISCARDABLE     "RES\\cur.bmp"
+IDB_NUCLEAR             BITMAP  DISCARDABLE     "RES\\Nuclear.bmp"
+IDB_PLINE3ID            BITMAP  DISCARDABLE     "RES\\pline3id.bmp"
+IDB_PLINE3IL            BITMAP  DISCARDABLE     "RES\\pline3il.bmp"
+IDB_PLINEBL             BITMAP  DISCARDABLE     "RES\\plinebl.bmp"
+IDB_PLINEBR             BITMAP  DISCARDABLE     "RES\\plinebr.bmp"
+IDB_PLINETL             BITMAP  DISCARDABLE     "RES\\plinetl.bmp"
+IDB_PLINETR             BITMAP  DISCARDABLE     "RES\\plinetr.bmp"
+IDB_PLINEH              BITMAP  DISCARDABLE     "RES\\plineh.bmp"
+IDB_PLINEV              BITMAP  DISCARDABLE     "RES\\plinev.bmp"
+IDB_PLINE4I             BITMAP  DISCARDABLE     "RES\\pline4i.bmp"
+IDB_NOPOWER             BITMAP  DISCARDABLE     "RES\\nopower.bmp"
+IDB_PLINE3IR            BITMAP  DISCARDABLE     "RES\\pline3ir.bmp"
+IDB_PLINE3IU            BITMAP  DISCARDABLE     "RES\\pline3iu.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About SimCity2..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\SimCity2.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

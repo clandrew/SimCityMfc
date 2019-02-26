@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{ECE2AC96-B492-4D47-BE03-2FC86023BFA2}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\SimCity2.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\SimCity2.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\SimCity2.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\SimCity2.exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Debug\SimCity2.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\SimCity2.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\SimCity2.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\SimCity2.exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="MaskedBitmap.cpp" />
+    <ClCompile Include="SimCity2.cpp" />
+    <ClCompile Include="SimCity2Dlg.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="ToolsDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SimCity2.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes.h" />
+    <ClInclude Include="MaskedBitmap.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SimCity2.h" />
+    <ClInclude Include="SimCity2Dlg.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="ToolsDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\1.bmp" />
+    <Image Include="res\airport.bmp" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="Res\bitmap4.bmp" />
+    <Image Include="res\blank.bmp" />
+    <Image Include="Res\bmp00001.bmp" />
+    <Image Include="Res\bmp00002.bmp" />
+    <Image Include="res\c.bmp" />
+    <Image Include="res\ch1.bmp" />
+    <Image Include="res\ch2.bmp" />
+    <Image Include="res\ch3.bmp" />
+    <Image Include="res\ch4.bmp" />
+    <Image Include="res\cl1.bmp" />
+    <Image Include="res\cl2.bmp" />
+    <Image Include="res\cl3.bmp" />
+    <Image Include="res\cl4.bmp" />
+    <Image Include="res\cm1.bmp" />
+    <Image Include="res\cm2.bmp" />
+    <Image Include="res\cm3.bmp" />
+    <Image Include="res\cm4.bmp" />
+    <Image Include="res\coal.bmp" />
+    <Image Include="res\cu1.bmp" />
+    <Image Include="res\cu2.bmp" />
+    <Image Include="res\cu3.bmp" />
+    <Image Include="res\cu4.bmp" />
+    <Image Include="Res\cur.bmp" />
+    <Image Include="res\fire.bmp" />
+    <Image Include="res\forest.bmp" />
+    <Image Include="res\i.bmp" />
+    <Image Include="res\ih1.bmp" />
+    <Image Include="res\ih2.bmp" />
+    <Image Include="res\ih4.bmp" />
+    <Image Include="res\il1.bmp" />
+    <Image Include="res\il2.bmp" />
+    <Image Include="res\il3.bmp" />
+    <Image Include="res\il4.bmp" />
+    <Image Include="Res\nopower.bmp" />
+    <Image Include="Res\Nuclear.bmp" />
+    <Image Include="res\p.bmp" />
+    <Image Include="Res\pline3id.bmp" />
+    <Image Include="Res\pline3il.bmp" />
+    <Image Include="Res\pline3ir.bmp" />
+    <Image Include="Res\pline3iu.bmp" />
+    <Image Include="Res\pline4i.bmp" />
+    <Image Include="Res\plinebl.bmp" />
+    <Image Include="Res\plinebr.bmp" />
+    <Image Include="Res\plineh.bmp" />
+    <Image Include="Res\plinetl.bmp" />
+    <Image Include="Res\plinetr.bmp" />
+    <Image Include="Res\plinev.bmp" />
+    <Image Include="RES\POLICE.BMP" />
+    <Image Include="res\rail3id.bmp" />
+    <Image Include="res\rail3il.bmp" />
+    <Image Include="Res\Rail3ir.bmp" />
+    <Image Include="res\rail3iu.bmp" />
+    <Image Include="Res\Rail4i.bmp" />
+    <Image Include="Res\Railbl.bmp" />
+    <Image Include="Res\Railbr.bmp" />
+    <Image Include="Res\Railh.bmp" />
+    <Image Include="Res\Railtl.bmp" />
+    <Image Include="Res\Railtr.bmp" />
+    <Image Include="Res\Railv.bmp" />
+    <Image Include="res\rh1.bmp" />
+    <Image Include="res\rh2.bmp" />
+    <Image Include="res\rh3.bmp" />
+    <Image Include="res\rh4.bmp" />
+    <Image Include="res\rl1.bmp" />
+    <Image Include="res\rl2.bmp" />
+    <Image Include="res\rl3.bmp" />
+    <Image Include="res\rl4.bmp" />
+    <Image Include="res\rm1.bmp" />
+    <Image Include="res\rm2.bmp" />
+    <Image Include="res\rm3.bmp" />
+    <Image Include="res\rm4.bmp" />
+    <Image Include="Res\Road3id.bmp" />
+    <Image Include="Res\Road3il.bmp" />
+    <Image Include="Res\Road3ir.bmp" />
+    <Image Include="Res\Road3iu.bmp" />
+    <Image Include="Res\Road4i.bmp" />
+    <Image Include="Res\Roadbl.bmp" />
+    <Image Include="Res\Roadbr.bmp" />
+    <Image Include="res\roadh.bmp" />
+    <Image Include="Res\Roadtl.bmp" />
+    <Image Include="Res\Roadtr.bmp" />
+    <Image Include="res\roadv.bmp" />
+    <Image Include="res\ru1.bmp" />
+    <Image Include="res\ru2.bmp" />
+    <Image Include="res\ru3.bmp" />
+    <Image Include="res\ru4.bmp" />
+    <Image Include="res\seaport.bmp" />
+    <Image Include="res\SimCity2.ico" />
+    <Image Include="res\stadium.bmp" />
+    <Image Include="res\water.bmp" />
+    <Image Include="Res\_1.bmp" />
+    <Image Include="Res\_10.bmp" />
+    <Image Include="Res\_11.bmp" />
+    <Image Include="Res\_12.bmp" />
+    <Image Include="Res\_13.bmp" />
+    <Image Include="Res\_14.bmp" />
+    <Image Include="Res\_15.bmp" />
+    <Image Include="Res\_2.bmp" />
+    <Image Include="Res\_3.bmp" />
+    <Image Include="Res\_4.bmp" />
+    <Image Include="Res\_5.bmp" />
+    <Image Include="Res\_6.bmp" />
+    <Image Include="Res\_7.bmp" />
+    <Image Include="Res\_8.bmp" />
+    <Image Include="Res\_9.bmp" />
+    <Image Include="Res\~1.bmp" />
+    <Image Include="Res\~10.bmp" />
+    <Image Include="Res\~11.bmp" />
+    <Image Include="Res\~12.bmp" />
+    <Image Include="Res\~13.bmp" />
+    <Image Include="Res\~14.bmp" />
+    <Image Include="Res\~15.bmp" />
+    <Image Include="Res\~2.bmp" />
+    <Image Include="Res\~3.bmp" />
+    <Image Include="Res\~4.bmp" />
+    <Image Include="Res\~5.bmp" />
+    <Image Include="Res\~6.bmp" />
+    <Image Include="Res\~7.bmp" />
+    <Image Include="Res\~8.bmp" />
+    <Image Include="Res\~9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\SimCity2.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
