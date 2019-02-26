@@ -1,5 +1,5 @@
 # SimCityMfc
-This is a school project from long ago, created using Visual C++ 6.0 with MFC. At the time I was trying to do two things: learn C++ language, and Windows programming. I recall getting a good mark on the project as well as scoping it to make the deadline and having a really good time working on it The program was made to look like SimCity for the SNES, a game I liked playing at the time.
+This is a school project from long ago, created using Visual C++ 6.0 with MFC. At the time I was trying to do two things: learn C++ language, and Windows programming. I recall getting a good mark on the project as well as scoping it to make the deadline and having a really good time working on it. The program was made to look like SimCity for the SNES, a game I liked playing at the time.
 
 **Running the release**
 
