@@ -7,7 +7,7 @@ The release is a standalone binary. Since all the image elements are set up as r
 
 **Usage environment**
 
-This program is for Windows 7/Windows 10+ x86-compatible environments.
+This program was originally tested on Windows 98SE. The posted release has been tested on Windows 10. The program is for x86-compatible environments.
 
 **Build**
 
