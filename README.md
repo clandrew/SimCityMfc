@@ -16,6 +16,7 @@ Incredibly, the VC++ 6.0 DSW (project file) was auto-converted to a workable Vis
 ![Example image](https://raw.githubusercontent.com/clandrew/SimCityMfc/master/Images/SimCity.gif "Example image")
 
 **How to Play**
+
 The icons on the left hand side are your toolbar to select different building options. 
 
 ![Bulldozer](https://raw.githubusercontent.com/clandrew/SimCityMfc/master/RES/_1.bmp "Bulldozer") The bulldozer allows you to demolish anything you've constructed. Parks, roads, buidings, anything. A building is demolished when its center is run over with the bulldozer.
